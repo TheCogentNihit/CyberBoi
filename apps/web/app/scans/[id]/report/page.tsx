@@ -91,7 +91,7 @@ export default function ReportPage() {
         <div>
           <h3 className="text-xl font-bold tracking-tight">Security Analysis Report</h3>
           <p className="text-xs text-muted-foreground mt-0.5">
-            Generated: {new Date(report.generated_at).toLocaleString()}
+            Generated: {report.generated_at ? new Date(report.generated_at).toLocaleString() : "Just now"}
           </p>
         </div>
         <div className="flex items-center gap-3">
