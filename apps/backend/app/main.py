@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
-from app.config import CORS_ORIGINS, UPLOAD_DIR
+from app.config import CORS_ORIGINS, CORS_ORIGIN_REGEX, UPLOAD_DIR
 from app.database import init_db
 from app.routers import health, scans, worker
 
