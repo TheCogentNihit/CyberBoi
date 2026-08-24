@@ -1,0 +1,30 @@
+# Top-level ignores
+node_modules/
+.next/
+out/
+venv/
+.env
+.env.local
+.env.*.local
+*.db
+*.sqlite3
+*.tar.gz
+*.zip
+*.csv
+*.pdf
+*.apk
+*.joblib
+*.pyc
+__pycache__/
+worker_data/
+uploads/
+fe-temp/
+fe/
+static_analysis/
+dynamic_analysis/
+cloudflared
+.DS_Store
+
+# Nested git folders if any
+apps/web/.git
+apps/web_backup*
